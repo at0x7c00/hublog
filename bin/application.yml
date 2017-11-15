@@ -9,6 +9,9 @@ spring:
       ddl-auto: update
     generate-ddl: true
     show-sql: true
+  thymeleaf:
+    mode: LEGACYHTML5
+    cache: false
 
 server:
   context-path: /hublog

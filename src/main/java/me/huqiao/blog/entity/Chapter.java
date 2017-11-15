@@ -1,12 +1,14 @@
 package me.huqiao.blog.entity;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
 public class Chapter {
 
 	@Id
+	@GeneratedValue
 	private Long id;
 	private String title;
 	private String content;
