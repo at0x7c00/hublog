@@ -5,6 +5,7 @@ import java.util.HashSet;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.stereotype.Service;
 
 import me.huqiao.blog.sys.entity.Role;
 import me.huqiao.blog.sys.entity.User;
@@ -12,6 +13,7 @@ import me.huqiao.blog.sys.repository.RoleRepository;
 import me.huqiao.blog.sys.repository.UserRepository;
 import me.huqiao.blog.sys.service.UserService;
 
+@Service
 public class UserServiceImpl implements UserService{
 
 	@Autowired

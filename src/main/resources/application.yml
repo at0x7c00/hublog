@@ -15,4 +15,16 @@ spring:
 
 server:
   context-path: /hublog
-      
+  
+spring.queries.users-query: select email, password, active from sys_user where email=?
+spring.queries.roles-query: select u.email, r.role from sys_user u inner join user_role ur on(u.user_id=ur.user_id) inner join sys_role r on(ur.role_id=r.role_id) where u.email=?
+
+spring.thymeleaf.cache: true
+spring.thymeleaf.check-template: true
+spring.thymeleaf.check-template-location: true
+spring.thymeleaf.content-type: text/html
+spring.thymeleaf.enabled: true
+spring.thymeleaf.encoding: UTF-8
+spring.thymeleaf.mode: HTML5
+spring.thymeleaf.prefix: classpath:/templates/
+spring.thymeleaf.suffix: .html
