@@ -1,0 +1,18 @@
+body{
+	background:rgb(252, 243, 202);
+	color: rgb(78, 52, 46) !important;
+}
+div.paper{
+	box-shadow: rgba(0, 0, 0, 0.09) 0px 8px 16px 0px;
+	background:rgba(255, 252, 239, 0.99);
+}
+article{
+	background:rgba(255, 252, 239, 0.99);	
+}
+
+div.catalog li.menu{
+	color: rgb(78, 52, 46);
+}
+article>h2.sub-title{
+	color: rgba(68, 68, 68, 0.7);
+}

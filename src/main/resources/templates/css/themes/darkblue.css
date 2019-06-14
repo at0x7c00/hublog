@@ -1,0 +1,23 @@
+body{
+	background:rgb(25, 29, 45);
+	color: rgba(212, 220, 255,0.8) !important;
+}
+div.paper{
+	box-shadow: rgba(0, 0, 0, 0.09) 0px 8px 16px 0px;
+	background:rgba(42, 47, 67, 0.99);
+}
+article{
+	
+}
+div.catalog li.menu{
+	color:rgb(212, 220, 255);
+}
+.footer-logo,.align-center,.share-btn>svg{
+	color:rgba(212, 220, 255, 0.5);
+}
+article>h2.sub-title{
+	color: rgba(212, 220, 255, 0.7);
+}
+div.devider{
+	border-bottom-color:rgba(212, 220, 255, 0.2);
+}
